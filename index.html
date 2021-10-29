@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<!-- keep the line below for OpenProcessing compatibility -->
+	<script src="https://openprocessing.org/openprocessing_sketch.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/addons/p5.sound.min.js"></script>
+	<script src="mySketch.js" defer></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+	Seed:<input type="number" id="seed" value="5"></input>
+	<br>
+	Message to encode:
+	<br>
+	<textarea id="message">hello</textarea>
+	<div id="encodedMessage">Encoded message will go here</div>
+	<button id="encodeBtn">Encode</button>
+	<hr>
+	Seed:<input type="number" id="decodeSeed" value="5"></input>
+	<br>
+	Message to encode:
+	<br>
+	<textarea id="messageToDecode">-"si</textarea>
+	<div id="decodedMessage">decoded message will go here</div>
+	<button id="decodeBtn">Decode</button>
+</body>
+
+</html>
