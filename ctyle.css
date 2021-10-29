@@ -1,0 +1,15 @@
+html,
+body {
+	margin: 5;
+	padding: 0;
+}
+#encodedMessage {
+	height: 100px;
+	width: 50%;
+	background-color: LightCoral;
+}
+#decodedMessage {
+	height: 100px;
+	width: 50%;
+	background-color: PaleGreen;
+}
